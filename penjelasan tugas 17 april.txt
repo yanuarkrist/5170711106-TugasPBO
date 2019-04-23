@@ -1,0 +1,17 @@
+Nama : Yanuar Kristanto
+Nim  : 51707111106
+
+1. class Manusia adalah superclass. 
+Pada class Manusia deklarasi variabel menggunakan modifier "protected" artinya, 
+variabel itu bisa di akses oleh class lainnya dalam satu Package.
+Pada program ini di panggil pada class turunannya (subclassnya) yang masih berada pada satu package.
+pemberian nilai 15 pada variable umur dimaksudkan umur minimal masuk tahap SMA/SMK.
+2. Pada class pekerja, extends Manusia menunjukan bahwa pekerja adalah subclassnya Manusia(superclass). 
+artinya semua yang dimiliki class Manusia bisa diakses oleh class Mahasiswa(variable & methodnya). 
+@override adalah Method Overriding digunakan untuk membuat ulang sebuah method pada sub-class atau class anak.
+3. Pada class Mahasiswa juga menggunakan extends Manusia, artinya Mahasiswa adalah subclassnya Manusia.
+juga menggunakan overriding.
+4. Pada class Sekolah juga sama, terdapat extends Manusia yang berarti Sekolah adalah subclassnya Manusia. 
+Dan menggunakan overriding juga.
+5. Pada Mainclass terdapat pembuatan obyek baru untuk masing masing kelas, 
+dan juga pemanggilan method per masing masing classnya.
